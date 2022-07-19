@@ -133,7 +133,7 @@ h1, h2, h3 {
 	margin-top: 0.7em;
 	margin-bottom: 0.3em;
 	padding-bottom: 0.2em;
-	line-height: 1.2;
+	line-height: 1.1;
 	padding-top: 0.5em;
 	border-bottom: 1px solid #656363;
 }
@@ -160,7 +160,7 @@ p {
 	margin-top: 0.0em;
 	margin-bottom: 0.8em;
 	padding: 0;
-	line-height: 1.8;
+	line-height: 1.5;
 }
 
 pre {
