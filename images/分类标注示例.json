@@ -1,0 +1,190 @@
+{
+ "task": {
+  "id": 2346,
+  "uniqid": "a06e2e21-9d60-4ab4-94eb-a37ea42288f7",
+  "userID": "7ac09e7d-8494-4467-a9c5-e22314d6aadd",
+  "userName": "xcjxcj",
+  "name": "分类标注示例",
+  "description": "{\"description\": \"我的2018标记任务\", \"instructions\": \"https://powerlawai.oss-cn-beijing.aliyuncs.com/static/%E8%A7%85%E5%BE%8Blogo_108_108.png\"}",
+  "createTime": "2022-10-07 17:40:34",
+  "options": "相关,不相关",
+  "type": {
+   "type": 0,
+   "multiple": false,
+   "multipleLimit": 2
+  },
+  "extra": {
+   "first": 1,
+   "guide": 0,
+   "limit": 0,
+   "health": 1,
+   "repeat": 1,
+   "limitNum": 0,
+   "maxSpeed": 10,
+   "stopTime": 120,
+   "guideList": [],
+   "guideType": 5.1,
+   "alertEmail": "luckyliu@powerlaw.ai,fengtong@powerlaw.ai",
+   "healthType": 0,
+   "healthRatio": 1,
+   "healthInterval": 2
+  },
+  "count": 3,
+  "status": 1,
+  "level": 1,
+  "accesskey": "539917"
+ },
+ "term": [
+  {
+   "termID": 1182081,
+   "id": 323989,
+   "content": [
+    {
+     "content": "我是一个测试题, 请回答相关"
+    }
+   ],
+   "createTime": "2022-10-07 17:40:40",
+   "result": [
+    {
+     "answer": "相关",
+     "children": []
+    }
+   ],
+   "status": 0,
+   "userName": "xcjxcj",
+   "userID": "7ac09e7d-8494-4467-a9c5-e22314d6aadd",
+   "type": 10,
+   "user_termID": 323989
+  },
+  {
+   "termID": 1182080,
+   "id": 323990,
+   "content": [
+    {
+     "content": [
+      "支持多个 content",
+      "支持多个 content2",
+      "支持多个 content3"
+     ],
+     "options": "我选1, 我选2, 我选3"
+    }
+   ],
+   "createTime": "2022-10-07 17:41:12",
+   "result": [
+    {
+     "answer": "我选1",
+     "children": []
+    }
+   ],
+   "status": 0,
+   "userName": "xcjxcj",
+   "userID": "7ac09e7d-8494-4467-a9c5-e22314d6aadd",
+   "type": 0,
+   "user_termID": 323990
+  },
+  {
+   "termID": 1182078,
+   "id": 323991,
+   "content": [
+    {
+     "description": "问题描述, <strong>支持 html</strong>",
+     "content": "支持显示 html <a target='_blank' href='https://www.baidu.com/'>baidu</a> <h1>标题</h1>",
+     "children": [
+      {
+       "content": "子问题1",
+       "options": [
+        "选项1",
+        "选项2",
+        "选项3"
+       ]
+      },
+      {
+       "content": "子问题2",
+       "options": [
+        "2选项1",
+        "2选项2",
+        "2选项3"
+       ]
+      }
+     ]
+    }
+   ],
+   "createTime": "2022-10-07 17:41:49",
+   "result": [
+    {
+     "answer": [],
+     "children": [
+      {
+       "content": "子问题1",
+       "options": [
+        "选项1",
+        "选项2",
+        "选项3"
+       ],
+       "answer": "选项1"
+      },
+      {
+       "content": "子问题2",
+       "options": [
+        "2选项1",
+        "2选项2",
+        "2选项3"
+       ],
+       "answer": "2选项2"
+      }
+     ]
+    }
+   ],
+   "status": 0,
+   "userName": "xcjxcj",
+   "userID": "7ac09e7d-8494-4467-a9c5-e22314d6aadd",
+   "type": 0,
+   "user_termID": 323991
+  },
+  {
+   "termID": 1182082,
+   "id": 323992,
+   "content": [
+    {
+     "content": "我是第二个测试题, 请回答相关"
+    }
+   ],
+   "createTime": "2022-10-07 17:41:52",
+   "result": [
+    {
+     "answer": "相关",
+     "children": []
+    }
+   ],
+   "status": 0,
+   "userName": "xcjxcj",
+   "userID": "7ac09e7d-8494-4467-a9c5-e22314d6aadd",
+   "type": 10,
+   "user_termID": 323992
+  },
+  {
+   "termID": 1182079,
+   "id": 323993,
+   "content": [
+    {
+     "content": [
+      "支持内容对比\n第一行",
+      "支持内容对比\n第一行啊\n还有第二行"
+     ]
+    }
+   ],
+   "createTime": "2022-10-07 17:41:57",
+   "result": [
+    {
+     "answer": "相关",
+     "children": []
+    }
+   ],
+   "status": 0,
+   "userName": "xcjxcj",
+   "userID": "7ac09e7d-8494-4467-a9c5-e22314d6aadd",
+   "type": 0,
+   "user_termID": 323993
+  }
+ ]
+}
